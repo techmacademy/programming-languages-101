@@ -6,3 +6,12 @@ def returnSmallest(a, b):
 		return a
 
 # Add your functions below this line :) --------------------------------------
+
+# A function to print a reversed message
+def reverseMessage(x):
+	b=[]
+	r=""
+	b=x.split()
+	for i in range((len(b)-1),-1,-1):
+		r=r+b[i]+""
+	return print(r)
