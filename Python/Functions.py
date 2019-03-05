@@ -15,3 +15,12 @@ def reverseMessage(x):
 	for i in range((len(b)-1),-1,-1):
 		r=r+b[i]+""
 	return print(r)
+
+# A function that calculates the factorial of a number recursively 
+
+def factorial(n):
+	if (n == 0):
+		return 1
+	else:
+		rest = factorial(n-1)
+		return rest * n
