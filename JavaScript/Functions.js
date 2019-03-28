@@ -8,3 +8,7 @@ function returnSmallest(a, b) {
 }
 
 // Add your functions below this line :) ------------------------------------
+
+function fahrenheit2centrigrade(f) {
+	return ((f-32)*5.0)/9.0;
+}
