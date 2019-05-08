@@ -8,3 +8,8 @@ function returnSmallest(a, b) {
 }
 
 // Add your functions below this line :) ------------------------------------
+
+function returnLenght(string1)
+{
+	return string1.lenght();
+}
