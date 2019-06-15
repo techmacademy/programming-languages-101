@@ -8,3 +8,4 @@ function returnSmallest(a, b) {
 }
 
 // Add your functions below this line :) ------------------------------------
+// Adding some comments here
