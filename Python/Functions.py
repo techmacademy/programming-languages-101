@@ -15,3 +15,10 @@ def reverseMessage(x):
 	for i in range((len(b)-1),-1,-1):
 		r=r+b[i]+""
 	return print(r)
+
+def returnSum(*args):
+	"""Return the summation of any number of arguments"""
+	sum = 0
+	for number in args:
+		sum += number
+	return sum
