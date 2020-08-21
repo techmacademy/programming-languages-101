@@ -7,4 +7,7 @@ function returnSmallest(a, b) {
 	}
 }
 
+function returnStringLength(string1){
+	return string1.length();
+}
 // Add your functions below this line :) ------------------------------------
