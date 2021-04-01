@@ -15,3 +15,10 @@ def reverseMessage(x):
 	for i in range((len(b)-1),-1,-1):
 		r=r+b[i]+""
 	return print(r)
+
+# A Function that returns the largest of the two arguments
+def returnLargest(a, b):
+	if (a > b):
+		return a
+	else:
+		return b
