@@ -15,3 +15,10 @@ def reverseMessage(x):
 	for i in range((len(b)-1),-1,-1):
 		r=r+b[i]+""
 	return print(r)
+
+def return_largest(a, b):
+	"""Return the larger of two values a or b"""
+	if (a > b):
+		return a
+	else:
+		return b
