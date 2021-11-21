@@ -8,3 +8,8 @@ function returnSmallest(a, b) {
 }
 
 // Add your functions below this line :) ------------------------------------
+
+// A function that returns the sum of 2 arguments
+function returnSum(a, b) {
+	return a+b
+}
