@@ -6,6 +6,8 @@ def returnSmallest(a, b):
 		return a
 
 # Add your functions below this line :) --------------------------------------
+def sum(a, b):
+	return a + b
 
 # A function to print a reversed message
 def reverseMessage(x):
