@@ -1,4 +1,4 @@
-# A Function that returns the smallest of the two arguments
+# A Function that returns the smallest of the two arguments faithfully
 def returnSmallest(a, b):
 	if (a > b):
 		return b
