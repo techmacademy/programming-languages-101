@@ -1,5 +1,5 @@
 // A function that returns the smallest argument
-function returnSmallest(a, b) {
+function returnSmallestValue(a, b) {
 	if(a>b) {
 		return b
 	} else {
