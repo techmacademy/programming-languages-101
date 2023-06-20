@@ -15,3 +15,7 @@ def reverseMessage(x):
 	for i in range((len(b)-1),-1,-1):
 		r=r+b[i]+""
 	return print(r)
+
+# A function to print hello world
+def my_function():
+  print("Hello World")
