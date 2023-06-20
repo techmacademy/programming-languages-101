@@ -8,3 +8,7 @@ function returnSmallest(a, b) {
 }
 
 // Add your functions below this line :) ------------------------------------
+
+function returnProduct(a, b) {
+  return a * b;
+}
